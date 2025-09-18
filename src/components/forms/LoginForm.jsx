@@ -53,11 +53,13 @@ const LoginForm = () => {
             )}
           </div>
 
-          <div className="forgot">
-            <p>
-              Forgot password? <a href="">Click Here</a>
-            </p>
-          </div>
+          {isLogin ? (
+            <div className="forgot">
+              <p>
+                Forgot password? <a href="">Click Here</a>
+              </p>
+            </div>
+          ) : null}
         </div>
       </div>
     </>

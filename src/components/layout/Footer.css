@@ -1,0 +1,42 @@
+#footer-container {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  height: 250px;
+}
+
+#share {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+#share h3 {
+  color: var(--secondary-color);
+  font-weight: 400;
+  text-align: left;
+}
+
+.notification input {
+  padding: 3px;
+}
+
+.notification button {
+  padding: 3px;
+}
+
+.footer-menu ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+}

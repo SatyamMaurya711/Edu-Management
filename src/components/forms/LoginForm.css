@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
   scroll-behavior: smooth;
 }
 
@@ -25,6 +25,7 @@
   border: none;
   background-color: var(--btn-hovercolor);
   color: white;
+  transition: 0.3s ease in;
 }
 
 .active-btn {
