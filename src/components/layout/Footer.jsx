@@ -33,6 +33,13 @@ const Footer = () => {
               <a href="">Login</a>
             </li>
           </ul>
+
+          <p className="description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            quo labore? Iste voluptatibus placeat enim atque fuga sit. Minima
+            velit quasi natus labore consequuntur at odit esse, animi omnis
+            nostrum!
+          </p>
         </div>
       </footer>
     </>

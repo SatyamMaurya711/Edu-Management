@@ -10,13 +10,12 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: center;
+  align-items: start;
 }
 
 #share h3 {
   color: var(--secondary-color);
   font-weight: 400;
-  text-align: left;
 }
 
 .notification input {
@@ -39,4 +38,12 @@
 .footer-menu a {
   color: white;
   text-decoration: none;
+}
+
+.description {
+  color: var(--secondary-color);
+  max-width: 700px;
+  padding-left: 20px;
+  text-wrap: auto;
+  padding-top: 0.5rem;
 }

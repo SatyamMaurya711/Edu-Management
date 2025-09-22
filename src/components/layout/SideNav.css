@@ -1,0 +1,28 @@
+#sidenav-container {
+  background-color: var(--sidenav-color);
+  width: 250px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+h3 {
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.menu {
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+  border: 5px aliceblue;
+}
+
+.menu img {
+  width: 20px;
+  height: 20px;
+}
